@@ -857,6 +857,9 @@ header {
 
 #contact {
   padding-top: 0px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 50px;
 }
 
 #contact-content {
@@ -1084,4 +1087,63 @@ header {
     padding-right: 15px;
   }
 
+}
+
+/*Custom Dji*/
+.well-blue{
+  background-color: rgb(0, 197, 255);
+}
+
+#well-blue{
+  background-color: rgb(0, 197, 255)!important;
+}
+
+/* Container holding the image and the text */
+.dji-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Centered text */
+.dji-centered {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    right: 5%;
+    /*transform: translate(-50%, -50%);*/
+}
+
+/* Top left text */
+.dji-left {
+    position: absolute;
+    top: 10%;
+    left: 4%;
+}
+
+/* Top left text */
+.yann-left {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    right: 5%;
+    bottom: 10%;
+}
+
+.rounded-corner{
+  border-radius: 10%;
+}
+
+.text-black{
+  color:black;
+  font-size: 130%;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.back-img{
+  opacity: 0.9;
+  transform: scaleX(-1);
 }
