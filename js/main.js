@@ -75,7 +75,8 @@ jQuery(document).ready(function($) {
         
         //when a nav link is clicked, smooth scroll to the section
         navigation.on('click', 'a', function(event){
-            event.preventDefault(); //prevents previous event
+            // Fidji 07/06/2019 line below is commented because we want to have access to the menu from outside pages 
+            //event.preventDefault(); //prevents previous event
             smoothScroll($(this.hash));
         });
         

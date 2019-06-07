@@ -349,13 +349,13 @@ header {
   margin-top: 0px;
   margin-bottom: 15px;
   font-size: 48px;
-  color: #fff;
+  color: #45489a;
   font-weight: 700;
 }
 
 .Modern-Slider .info p {
   font-size: 15px;
-  color: #fff;
+  color: #45489a;
 }
 
 .Modern-Slider .info .white-button {
@@ -427,6 +427,14 @@ header {
 
 .Modern-Slider .item-4 .image {
   background-image: url(../img/slide_4.jpg);
+}
+
+.Modern-Slider .item-5 .image {
+  background-image: url(../img/slide_5.png);
+}
+
+.Modern-Slider .item-6 .image {
+  background-image: url(../img/slide_6.png);
 }
 
 .Modern-Slider .PrevArrow:before{content:'\f104';}
@@ -1103,6 +1111,12 @@ header {
     position: relative;
     text-align: center;
     color: white;
+}
+
+.dji-container ul {
+  text-align: left;
+  color: black;
+  font-size: 18px;
 }
 
 /* Centered text */
