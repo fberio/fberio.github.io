@@ -10,7 +10,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-p {
+p h6 {
   font-size: 13px;
   color: #7a7a7a;
   line-height: 24px;
@@ -42,7 +42,7 @@ p {
   margin-bottom: 60px;
 }
 
-.section-heading h1 {
+.section-heading h2 {
   margin-top: 0px;
   font-size: 32px;
   color: #232323;
@@ -345,7 +345,7 @@ header {
   display: inline-block;
 }
 
-.Modern-Slider .info h1 {
+.Modern-Slider .info h1 h2 {
   margin-top: 0px;
   margin-bottom: 15px;
   font-size: 48px;
@@ -1155,6 +1155,10 @@ header {
 
 .text-center{
   text-align: center;
+}
+
+.text-justify{
+  text-align: justify;
 }
 
 .back-img{
