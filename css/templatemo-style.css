@@ -430,11 +430,11 @@ header {
 }
 
 .Modern-Slider .item-5 .image {
-  background-image: url(../img/slide_5.png);
+  background-image: url(../img/slide_5.jpg);
 }
 
 .Modern-Slider .item-6 .image {
-  background-image: url(../img/slide_6.png);
+  background-image: url(../img/slide_6.jpg);
 }
 
 .Modern-Slider .PrevArrow:before{content:'\f104';}
