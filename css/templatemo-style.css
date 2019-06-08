@@ -477,27 +477,27 @@ header {
 
 /* Featured Style */
 
-#featured {
+#projects {
   padding-left: 60px;
   padding-right: 60px;
   padding-bottom: 80px;
   border-bottom: 1px solid #eee;
 }
 
-#featured .section-heading {
+#projects .section-heading {
   margin-right: 20%;
 }
 
-#featured .content-section {
+#projects .content-section {
   display: inline-block;
   position: relative;
 }
 
-#featured .owl-dots {
+#projects .owl-dots {
   margin-top: 40px;
 }
 
-#featured .owl-dots .owl-dot span  {
+#projects .owl-dots .owl-dot span  {
   width: 12px;
   height: 12px;
   background-color: #cdcdcd!important;
@@ -506,30 +506,30 @@ header {
   margin: 0 3px;
 }
 
-#featured .owl-dots .active span {
+#projects .owl-dots .active span {
   background-color: #45489a!important;
 }
 
-#featured .owl-dots button {
+#projects .owl-dots button {
   outline: none;
 }
 
-#featured .owl-nav {
+#projects .owl-nav {
   position: absolute;
   display: inline-block;
   top: -110px;
   right: 0;
 }
 
-#featured .owl-nav button:focus {
+#projects .owl-nav button:focus {
   outline: none;
 }
 
-#featured .owl-nav .owl-prev span {
+#projects .owl-nav .owl-prev span {
   margin-right: 10px;
 }
 
-#featured .owl-nav .owl-next span, #featured .owl-nav .owl-prev span {
+#projects .owl-nav .owl-next span, #projects .owl-nav .owl-prev span {
   outline: none;
   width: 50px;
   height: 50px;
@@ -542,22 +542,22 @@ header {
   transition: all 0.5s;
 }
 
-#featured .owl-nav span:hover {
+#projects .owl-nav span:hover {
   background-color: #45489a;
   color: #fff;
 }
 
-#featured .item {
+#projects .item {
   text-align: left;
   position: relative;
   z-index: 10;
 }
 
-#featured .item .image {
+#projects .item .image {
   position: relative;
 }
 
-#featured .item .image img {
+#projects .item .image img {
   width: 100%;
   overflow: hidden;
 }
@@ -566,7 +566,7 @@ img {
   width: 100%;
 }
 
-#featured .item .image .featured-button a {
+#projects .item .image .featured-button a {
   font-size: 13px;
   font-weight: 600;
   color: #fff;
@@ -586,19 +586,19 @@ img {
   opacity: 0;
 }
 
-#featured .item:hover .featured-button a {
+#projects .item:hover .featured-button a {
   bottom: 0;
   opacity: 1;
 }
 
-#featured .item .text-content {
+#projects .item .text-content {
   padding-top: 20px;
   background-color: #fff;
   position: relative;
   z-index: 10;
 }
 
-#featured .item .text-content h4 {
+#projects .item .text-content h4 {
   margin-top: 0px;
   margin-bottom: 5px;
   font-size: 21px;
@@ -607,7 +607,7 @@ img {
   letter-spacing: 0.5px;
 }
 
-#featured .item .text-content span {
+#projects .item .text-content span {
   display: inline-block;
   font-size: 15px;
   font-weight: 600;
@@ -618,25 +618,25 @@ img {
 
 /* Projects Style */
 
-#projects {
+#publications {
   padding-left: 60px;
   padding-right: 60px;
   padding-bottom: 50px;
 }
 
-#projects .masonry {
+#publications .masonry {
   position: relative;
   width: 100%;
 }
 
-#projects .masonry .item img {
+#publications .masonry .item img {
   transition: all 1s;
   width: 100%;
   overflow: hidden;
   margin-bottom: 30px;
 }
 
-#projects .masonry .item img:hover {
+#publications .masonry .item img:hover {
   opacity: 0.5;
 }
 
@@ -644,28 +644,28 @@ img {
 
 /* Video Presentation Style */
 
-#video {
+#resume {
   text-align: center;
   background-color: #f4f4f4;
   padding: 100px 60px;
 }
 
-#video .section-heading {
+#resume .section-heading {
   margin-bottom: 30px;
   text-align: center;
 }
 
-#video .section-heading h1 {
+#resume .section-heading h1 {
   display: block;
   margin: 0px;
 }
 
-#video .section-heading p {
+#resume .section-heading p {
   position: relative;
   margin: 0px;
 }
 
-#video .accent-button {
+#resume .accent-button {
   margin-top: 30px;
 }
 
@@ -746,13 +746,13 @@ img {
 
 /* Blog Style */
 
-#blog {
+#misc {
   padding-left: 60px;
   padding-right: 60px;
   padding-bottom: 80px;
 }
 
-#blog .tabs {
+#misc .tabs {
   list-style: none;
   margin: 0px;
   padding: 0px;
@@ -762,7 +762,7 @@ img {
   border-bottom: 10px solid #45489a;
 }
 
-#blog .tabs li {
+#misc .tabs li {
   display: inline-block;
   text-align: center;
   width: 25%;
@@ -771,7 +771,7 @@ img {
   padding: 0;
 }
 
-#blog .tabs a {
+#misc .tabs a {
   display: block;
   text-align: center;
   text-decoration: none;
@@ -784,16 +784,16 @@ img {
   transition: 0.5s;
 }
 
-#blog .tabs a:hover {
+#misc .tabs a:hover {
   color: #45489a;
 }
 
 
-#blog .tabs .active:hover {
+#misc .tabs .active:hover {
   color: #fff;
 }
 
-#blog .tabs .active {
+#misc .tabs .active {
   background-color: #45489a;
   color: #fff;
 }
@@ -809,13 +809,13 @@ img {
   clear:both;
 }
 
-#blog .tabgroup ul {
+#misc .tabgroup ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-#blog .tabgroup ul li {
+#misc .tabgroup ul li {
   display: inline-block;
   text-align: left;
   margin-bottom: 10px;
@@ -823,23 +823,23 @@ img {
   border-bottom: 1px solid #ddd;
 }
 
-#blog .tabgroup ul li:last-child {
+#misc .tabgroup ul li:last-child {
   border-bottom: none;
   margin-bottom: 0px;
   padding-bottom: 10px;
 }
 
-#blog .tabgroup ul li img {
+#misc .tabgroup ul li img {
   float: left;
   margin-right: 30px;
   max-width: 100%;
   overflow: hidden;
 }
-#blog .tabgroup ul li .text-content {
+#misc .tabgroup ul li .text-content {
   display: inline;
 }
 
-#blog .item .text-content h4 {
+#misc .item .text-content h4 {
   padding-top: 7.5px;
   margin-top: 0px;
   margin-bottom: 5px;
@@ -849,7 +849,7 @@ img {
   letter-spacing: 0.5px;
 }
 
-#blog .item .text-content span {
+#misc .item .text-content span {
   display: inline-block;
   font-size: 15px;
   font-weight: 600;
@@ -858,7 +858,7 @@ img {
   margin-bottom: 15px;
 }
 
-#blog .item .text-content .accent-button {
+#misc .item .text-content .accent-button {
   margin-top: 25px;
 }
 
@@ -1054,43 +1054,43 @@ img {
     position: relative;
   }
 
-  #featured {
+  #projects {
     padding-left: 15px;
     padding-right: 15px;
   }
 
-  #featured .owl-nav {
+  #projects .owl-nav {
     position: absolute;
     display: inline-block;
     top: -220px;
     right: 0;
   }
 
-  #projects {
+  #publications {
     padding-left: 15px;
     padding-right: 15px;
   }
 
-  #video {
+  #resume {
     padding-left: 15px;
     padding-right: 15px;
   }
 
-  #blog {
+  #misc {
     padding-left: 15px;
     padding-right: 15px;
   }
 
-  #blog .tabs a {
+  #misc .tabs a {
     font-size: 13px;
   }
 
-  #blog .tabgroup ul li img {
+  #misc .tabgroup ul li img {
     float: none;
     width: 100%;
     margin-bottom: 15px;
   }
-  #blog .tabgroup ul li .text-content {
+  #misc .tabgroup ul li .text-content {
     display: block;
   }
 
