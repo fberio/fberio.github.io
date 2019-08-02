@@ -622,6 +622,7 @@ img {
   padding-left: 60px;
   padding-right: 60px;
   padding-bottom: 50px;
+  text-align: left;
 }
 
 #publications .masonry {
@@ -1168,4 +1169,117 @@ img {
 .back-img{
   opacity: 0.9;
   transform: scaleX(-1);
+}
+
+/* dji new section == perso 02.08.19 */
+#perso {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 80px;
+}
+
+#perso .tabs {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  height: 90px;
+  width: 100%;
+  background-color: #eee;
+  border-bottom: 10px solid #45489a;
+}
+
+#perso .tabs li {
+  display: inline-block;
+  text-align: center;
+  width: 25%;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+#perso .tabs a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  color: #232323;
+  font-size: 19px;
+  line-height: 80px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+#perso .tabs a:hover {
+  color: #45489a;
+}
+
+
+#perso .tabs .active:hover {
+  color: #fff;
+}
+
+#perso .tabs .active {
+  background-color: #45489a;
+  color: #fff;
+}
+
+#perso .tabgroup ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#perso .tabgroup ul li {
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+#perso .tabgroup ul li:last-child {
+  border-bottom: none;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+
+#perso .tabgroup ul li img {
+  float: left;
+  margin-right: 30px;
+  max-width: 100%;
+  overflow: hidden;
+}
+#perso .tabgroup ul li .text-content {
+  display: inline;
+}
+
+#perso .item .text-content h4 {
+  padding-top: 7.5px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 21px;
+  font-weight: 600;
+  color: #232323;
+  letter-spacing: 0.5px;
+}
+
+#perso .item .text-content span {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  color: #7a7a7a;
+  letter-spacing: 0.5px;
+  margin-bottom: 15px;
+}
+
+#perso .item .text-content .accent-button {
+  margin-top: 25px;
+}
+
+/* section heading without bottom space */
+.section-heading_nobottom {
+  text-align: left;
+  position: relative;
+  margin-bottom: 10px;
 }
