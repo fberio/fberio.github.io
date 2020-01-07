@@ -324,11 +324,11 @@ header {
 }
 
 .slider p a {
-	color: #FFF;
+  color: #FFF;
 }
 .slider p a:hover {
-	color: #FF0;
-	text-decoration: none;
+  color: #FF0;
+  text-decoration: none;
 }
 
 .Modern-Slider .info {
