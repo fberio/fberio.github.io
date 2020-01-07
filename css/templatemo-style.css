@@ -1,652 +1,1299 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Fidji Berio</title>
-    <meta name="author" content="Fidji Berio">
-    <meta name="description" content="Fidji Berio | Homepage">
-    <meta name="keywords" content="Fidji Berio,Fidji,Berio,PhD,Doctorat,Thèse,Thesis,France,French,Shark">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+/* 
 
-    <meta name="robots" content="index, follow">
-    <meta name="revisit-after" content="7 days"/>
+Sentra Template
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="css/fontAwesome.css">
-    <link rel="stylesheet" href="css/light-box.css">
-    <link rel="stylesheet" href="css/owl-carousel.css">
-    <link rel="stylesheet" href="css/templatemo-style.css">
+http://www.templatemo.com/tm-518-sentra
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+*/
 
-    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-</head>
-<body>
-    <header class="nav-down responsive-nav hidden-lg hidden-md">
-        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <div id="main-nav" class="collapse navbar-collapse">
-            <nav>
-                <ul class="nav navbar-nav">
-                    <li><a href="index.html#top">Home</a></li>
-                    <li><a href="index.html#aboutme">About me</a></li>
-                    <li><a href="index.html#projects">Research</a></li>
-                    <li><a href="index.html#publications">Publications</a></li>
-                    <!-- <li><a href="index.html#resume">CV</a></li> -->
-                    <!-- <li><a href="index.html#misc">Miscellaneous</a></li> -->
-                    <li><a href="index.html#perso">Hobbies</a></li>
-                    <!-- <li><a href="index.html#contact">Contact</a></li> -->
-                </ul>
-            </nav>
-        </div>
-    </header>
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 
-    <div class="sidebar-navigation hidde-sm hidden-xs">
-        <div class="logo">
-            <a href="index.html">Fidji <em>Berio</em></a>
-        </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html#top">  
-                        <span class="rect"></span>
-                        <span class="circle"></span>
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a href="index.html#aboutme">
-                        <span class="rect"></span>
-                        <span class="circle"></span>
-                        About me
-                    </a>
-                </li>
-                <li>
-                    <a href="index.html#projects">
-                        <span class="rect"></span>
-                        <span class="circle"></span>
-                        Research
-                    </a>
-                </li>
-                 <li>
-                    <a href="index.html#publications">
-                        <span class="rect"></span>
-                        <span class="circle"></span>
-                        Publications
-                    </a>
-                </li> 
-               <!--  <li>
-                    <a href="index.html#resume">
-                        <span class="rect"></span>
-                        <span class="circle"></span>
-                        CV
-                    </a>
-                </li> -->
-                <!-- <li>
-                    <a href="index.html#misc">
-                        <span class="rect"></span>
-                        <span class="circle"></span>
-                        Miscellaneous
-                    </a>
-                </li> -->
-                <li>
-                    <a href="index.html#perso">
-                        <span class="rect"></span>
-                        <span class="circle"></span>
-                        Hobbies
-                    </a>
-                </li>
-                <!-- <li>
-                    <a href="index.html#contact">
-                        <span class="rect"></span>
-                        <span class="circle"></span>
-                        Contact
-                    </a>
-                </li> -->
-            </ul>
-        </nav>
-        <ul class="social-icons">
-            <li><a href="fidji.berio@umontpellier.fr" target="_blank"><i class="fa fa-envelope"></i></a></li>
-            <li><a href="https://twitter.com/fidjiberio" target="_blank"><i class="fa fa-twitter"></i></a></li>
-            <!-- todo add researchgate profile -->
-            <li><a href="https://www.linkedin.com/in/fidjiberio/?locale=en_US" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="img/Resume_Fidji_Berio.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> CV</a></li>
-            <!-- <li><a href="#"><i class="fa fa-rss"></i></a></li> -->
-            <!-- <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
-        </ul>
-    </div>
+p h6 {
+  font-size: 13px;
+  color: #7a7a7a;
+  line-height: 24px;
+}
 
-    <div class="slider">
-        <div class="Modern-Slider content-section" id="top">
-            <!-- Item -->
-            <div class="item item-1">
-                <div class="img-fill">
-                <div class="image"></div>
-                <div class="info">
-                    <div>
-                      <h1>Fidji<br>Berio</h1>
-                      <p>PhD student<br>
-                      			in Evo-Devo &amp; Marine Biology</p>
-                      <div class="white-button button">
-                          <a href="#aboutme">About me</a>
-                      </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <!-- // Item -->
-            <!-- Item -->
-            <div class="item item-2">
-                <div class="img-fill">
-                    <div class="image"></div>
-                    <div class="info">
-                    <div>
-                      <h2>Elasmobranchs<br>skeleton</h2>
-                      <p>Thorny skate (<i>Amblyraja radiata</i>) microCT scan.
-						<!-- <br>Proin sit amet fringilla erat.</p> -->
-                      
-                      <div class="white-button button">
-                          <a href="vertebrae.html">More about the project</a>
-                      </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <!-- // Item -->
-            <!-- Item -->
-            <div class="item item-3">
-                <div class="img-fill">
-                    <div class="image"></div>
-                    <div class="info">
-                    <div>
-                      <h2>Tooth shape <br>&amp; development</h2>
-                      <p>Tooth shapes of a nursehound <i>Scyliorhinus stellaris</i> jaw.</p>
-                      
-                      <div class="white-button button">
-                          <a href="stellaris.html">More about the project</a>
-                      </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item item-4">
-                <div class="img-fill">
-                    <div class="image"></div>
-                    <div class="info">
-                    <div>
-                      <h2>Tooth shape<br>diversity</h2>
-                      <p>MicroCT images of tooth shape diversity in sharks.
-						<!-- <br>Proin sit amet fringilla erat.</p> -->
-                      
-                      <div class="white-button button">
-                          <a href="jaw_diversity.html">More about the project</a>
-                      </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item item-5">
-                <div class="img-fill">
-                    <div class="image"></div>
-                    <div class="info">
-                    <div>
-                      <h2>Tooth & odontode<br>development</h2>
-                      <p>Histology of <i>Scyliorhinus canicula</i> jaw (Masson's Trichrome).
-                        <!-- <br>Proin sit amet fringilla erat.</p> -->
-                      
-                      <div class="white-button button">
-                          <a href="dev_odontodes.html">More about the project</a>
-                      </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item item-6">
-                <div class="img-fill">
-                    <div class="image"></div>
-                    <div class="info">
-                    <div>
-                      <h2>Evolution of mineralizing cells<br>in chondrichthyans</h2>
-                      <p>Histology of skate vertebrae (HES staining).
-                        <!-- <br>Proin sit amet fringilla erat.</p> -->
-                      
-                      <div class="white-button button">
-                          <a href="mineralizing_cells.html">More about the project</a>
-                      </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+.page-content {
+  width: 77.5%;
+  float: right;
+}
 
-    <div class="page-content">
-        <section id="aboutme" class="content-section">
-            <div class="section-heading">
-                <h2>About<br><em>me</em></h2>
-            </div>
-            <div class="section-content">
-                <div class="row">
-                    <div class="dji-container">
-                        <img src="img/font_about_me.jpg" alt="Banyuls-sur-mer" style="width:100%" class="back-img">
-                        <div class="row yann-left">
-                            <div class="col-md-3">
-                                <img src="img/fidjiberio.jpg" alt="Fidji Berio" title="Fidji Berio" style="width:100%" class="rounded-corner">
-                            </div>
-                            <div class="col-md-9">
-                                <p class="text-black text-justify">
-                                    I have a Master degree in marine ecology and I am currently doing my PhD in evo-devo on cartilaginous fishes, especially on catsharks (Scyliorhinids). I try to describe their tooth shape diversity using microCT scans and 3D geometric morphometrics. Then, I am deciphering what drives such diversity, including physical and molecular parameters. I work under the co-supervision of Nicolas Goudemand and <a href="http://www.isem.univ-montp2.fr/fr/personnel/equipes/macroevolution-et-developpement/debiais-thibaud-melanie.index/" target="_blank"> Mélanie Debiais-Thibaud</a>.
-                                    I am also involved in side projects about the skeletal patterns in skates (<a href="https://www.uqar.ca/" target="_blank">University of Québec in Rimouski</a> in the <a href="http://paleobio.uqar.ca/index.php/21-etudiants/66-fidji-berio" target="_blank">Paléobio lab</a>), about the evolutionary history of mineralizing cells in Chondrichthyans, and the organization of the 
-                                    <a href="https://ccbconference.wixsite.com/ccb2019/" target="_blank"> Comparative Cartilage Biology meeting</a>.
-                                     
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-        </section>
-        <section id="projects" class="content-section">
-            <div class="well well-black">
-            <div class="section-heading">
-                <h2><em>Research</em></h2>
-            </div>
-            <div class="section-content">
-                <div class="owl-carousel owl-theme">
-                    <div class="item">
-                        <div class="image">
-                            <img src="img/slide_4.jpg" alt="">
-                            <div class="featured-button button">
-                                <a href="jaw_diversity.html">Continue Reading </a>
-                            </div>
-                        </div>
-                        <div class="text-content">
-                            <h4>Exploring tooth shape diversity in sharks</h4>
-                            <span></span>
-                            <p>We quantify shark interspecific tooth shape patterns and seek for physical contraints to explain this diversity.</p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="image">
-                            <img src="img/slide_3.jpg" alt="">
-                            <div class="featured-button button">
-                                <a href="stellaris.html">Continue Reading </a>
-                            </div>
-                        </div>
-                        <div class="text-content">
-                            <h4>Intraspecific tooth shape variation</h4>
-                            <span></span>
-                            <p>I characterize the intraspecific tooth shape variation -mostly in scyliorhinids- among sexes and across growth stages.</p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="image">
-                            <img src="img/slide_6.jpg" alt="">
-                            <div class="featured-button button">
-                                <a href="mineralizing_cells.html">Continue Reading</a>
-                            </div>
-                        </div>
-                        <div class="text-content">
-                            <h4>Mineralizing cells in chondrichthyans</h4>
-                            <span></span>
-                            <p>Comparing mineralizing cell types of the endoskeleton of sharks, skates, rays, and chimaeras.</p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="image">
-                            <img src="img/slide_2.jpg" alt="">
-                            <div class="featured-button button">
-                                <a href="vertebrae.html">Continue Reading </a>
-                            </div>
-                        </div>
-                        <div class="text-content">
-                            <h4>Skates skeleton</h4>
-                            <span></span>
-                            <p>I describe the endoskeleton of the thorny skate <i>Amblyraja radiata</i> and particularly the vertebral column.</p>
-                        </div>
-                    </div>
-                   <!--  <div class="item">
-                        <div class="image">
-                            <img src="img/scyland3d.jpg" alt="">
-                            <div class="featured-button button">
-                                <a href="scyland3d.html">Continue Reading</a>
-                            </div>
-                        </div>
-                        <div class="text-content">
-                            <h4>Improving 3D landmark processing</h4>
-                            <span></span>
-                            <p>Designing tools to handle and reorganize 3D landmark coordinates in useful formats.</p>
-                        </div>
-                    </div> -->
-                    <div class="item">
-                        <div class="image">
-                            <img src="img/slide_5.jpg" alt="">
-                            <div class="featured-button button">
-                                <a href="dev_odontodes.html">Continue Reading</a>
-                            </div>
-                        </div>
-                        <div class="text-content">
-                            <h4>Tooth & odontode development</h4>
-                            <span></span>
-                            <p>Comparing gene expression patterns between teeth and odontodes.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>    
-        </section>
-        <!-- <section id="publications" class="content-section">
-            <div class="section-heading">
-                <h2><em>Publications</em></h2>
-            </div>
-            <div class="section-content">
-                <div class="masonry">
-                	<div class="row">
-                		<div class="col-md-6">
-                			<div class="well">
-                				<div class="row">
-                					<div class="col-md-1">
-            							<i class="fa fa-microphone"></i>
-                					</div>	
-                					<div class="col-md-11">
-            							Oral presentation: <b>Tooth shape variation in the large-spotted catshark <i>Scyliorhinus stellaris</i> (2018)</b><br>
-            							<p><u>Berio F.</u>, Evin A., Debiais-Thibaud M. &amp; Goudemand N., in the <a href="https://smef-2018.sciencesconf.org/?forward-action=index&forward-controller=index&lang=en"> 10th Symposium on Morphometry and Evolution of Forms, Bordeaux, France</a>.</p>
-                					</div>	
-                				</div>
-                			</div>	
-                		</div>
-                		<div class="col-md-6">
-                			<div class="well">
-                				<div class="row">
-                					<div class="col-md-1">
-            							<i class="fa fa-image"></i>
-                					</div>	
-                					<div class="col-md-11">
-            							Poster presentation: <b>A sex- and stage-dependent smile: Exploring tooth shape variation in the large-spotted catshark (2018)</b><br>
-            							<p><u>Berio F.</u>, Evin A., Debiais-Thibaud M. &amp; Goudemand N., at Journée de l'Ecole Doctorale, Lyon, France.<br>
-                                        <u>Public Prize</u></p>
-                					</div>	
-                				</div>
-                			</div>	
-                		</div>
-                	</div>
-                        <div class="row">
-                        <div class="col-md-6">
-                            <div class="well">
-                                <div class="row">
-                                    <div class="col-md-1">
-                                        <i class="fa fa-file-text-o"></i>
-                                    </div>  
-                                    <div class="col-md-11">
-                                        Article: <b>Evolutionary developmental genetics of teeth and odontodes in jawed vertebrates: A perspective from the study of elasmobranch fishes (under review, 2019)</b><br>
-                                        <p><u>Berio F.</u> &amp; Debiais-Thibaud M. in Journal of Fish Biology.<br>
-                                    </div>  
-                                </div>
-                            </div>  
-                        </div>
-                        <div class="col-md-6">
-                            <div class="well">
-                                <div class="row">
-                                    <div class="col-md-1">
-                                        <i class="fa fa-image"></i>
-                                    </div>  
-                                    <div class="col-md-11">
-                                        Poster presentation: <b>Intra- and interspecific tooth shape variation in sharks: Phenotypic plasticity and developmental constraints on tooth evolution (2018)</b><br>
-                                        <p><u>Berio F.</u>, Evin A., Debiais-Thibaud M. &amp; Goudemand N., at the <a href="http://www.evodevo2018.eu/ehome/index.php?eventid=232389&tabid=517028&"> 7th Euro Evo Devo, Ireland</a>, &amp; <a href="https://www.evolutionmontpellier2018.org/"> Evolution Montpellier, France</a>.</p>
-                                    </div>  
-                                </div>
-                            </div>  
-                        </div>
-                        <div class="row">
-                        <div class="col-md-6">
-                            <div class="well">
-                                <div class="row">
-                                    <div class="col-md-1">
-                                        <i class="fa fa-microphone"></i>
-                                    </div>  
-                                    <div class="col-md-11">
-                                        Oral presentation: <b>Histological description of cell types involved in the chondrichthyan skeletogenesis (2019)</b><br>
-                                        <p><u>Berio F.</u>, Enault S. &amp; Debiais-Thibaud M., at the <a href="https://ccbconference.wixsite.com/ccb2019"> Comparative Cartilage Biology meeting, Banyuls-sur-mer, France</a>.</p>
-                                    </div>  
-                                </div>
-                            </div>  
-                        </div>
-                        <div class="col-md-6">
-                            <div class="well">
-                                <div class="row">
-                                    <div class="col-md-1">
-                                        <i class="fa fa-file-text-o"></i>
-                                    </div>  
-                                    <div class="col-md-11">
-                                        Article: <b>Scyland 3D: Processing 3D landmarks (under review, 2019)</b><br>
-                                        <p><u>Berio F.</u> &amp; Bayle Y., in the Journal of Open Science Software.<br>
-                                    </div>  
-                                </div>
-                            </div>  
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>            
-        </section> -->
-        <section id="publications" class="content-section">
-            <div class="well well-black">
-                <div class="section-heading_nobottom">
-                    <h3>Journal publications</h3>
-                </div>
-                    <p><br>
-                    <b>F Berio</b> &amp; M Debiais-Thibaud (under review, 2019).
-                    <i>Evolutionary developmental genetics of teeth and odontodes in jawed vertebrates: A perspective from the study of elasmobranch fishes.</i> &mdash; Journal of Fish Biology.</p>
-                    <p>
-                    <b>F Berio</b> &amp; Y Bayle (under review, 2019).
-                    <i>Scyland3D: Processing 3D landmarks.</i> &mdash; Journal of Open Science Software.<br></p>
-                <div class="section-heading_nobottom">
-                    <h3>Scientific talks</h3>
-                </div>
-                    <p><br>
-                    <b>F Berio</b>, S Enault, M Debiais-Thibaud (2019).
-                    <i>Histological description of cell types involved in the chondrichthyan skeletogenesis.</i> &mdash; <a href="https://ccbconference.wixsite.com/ccb2019"> Comparative Cartilage Biology meeting, Banyuls-sur-mer, France</a>.</p>
-                    <p>
-                    <b>F Berio</b>, A Evin, M Debiais-Thibaud &amp; N Goudemand (2018).
-                    <i>Tooth shape variation in the large-spotted catshark Scyliorhinus stellaris.</i> &mdash; <a href="https://smef-2018.sciencesconf.org/?forward-action=index&forward-controller=index&lang=en"> 10th Symposium on Morphometry and Evolution of Forms, Bordeaux, France</a>.</p>
-                <div class="section-heading_nobottom">
-                    <h3>Scientific posters</h3>
-                </div>
-                    <p><br>
-                    <b>F Berio</b>, A Evin, M Debiais-Thibaud, N Goudemand (2018).
-                    <i>A sex- and stage- dependent smile: Exploring tooth shape variation in the large-spotted catshark.</i> &mdash; Doctoral School, Public Prize.</p>
-                    <p>
-                    <b>F Berio</b>, A Evin, M Debiais-Thibaud, N Goudemand (2018).
-                    <i>Intra- and interspecific tooth shape variation in sharks: Phenotypic plasticity and developmental constraints on tooth evolution.</i> &mdash; <a href="http://www.evodevo2018.eu/ehome/index.php?eventid=232389&tabid=517028&"> 7th EuroEvoDevo, Galway, Ireland</a> &amp; <a href="https://www.evolutionmontpellier2018.org/"> Evolution, Montpellier, France</a>.</p></p>
-            </div>
-        </section>
-       <!--  <section id="resume" class="content-section">
-            <h2 style="visibility: hidden">Fidji Berio's Resume</h2>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-heading">
-                        <div class="accent-button button">  
-                            <a href="img/Resume_Fidji_Berio.pdf" target="_blank">CV</a>
-                        </div>
-                        <h2><em>Resume</em> &amp; <em><i>CV</i></em></h2>
-                    </div>
-                    <div class="row">
-                    	<div class="col-md-2 col-md-offset-4">
-	                        <div class="accent-button button">	
-	                            <a href="work/Resume_Fidji_Berio.pdf" target="_blank">Resume</a>
-	                        </div>
-                    	</div>
-                    	<div class="col-md-2">
-	                        <div class="accent-button button">	
-	                            <a href="nom_pdf.pdf" target="_blank">CV</a>
-	                        </div>
-                    	</div>
-                    </div> 
-                </div>
-            </div>
-        </section> -->
-        <!-- <section id="misc" class="content-section">
-            <div class="section-heading">
-                <h2><em>Miscellaneous</em></h2>
-            </div>
-            <div class="section-content">
-                <div class="tabs-content">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="row">
-                                <div class="col-md-offset-1 col-md-10">
-                                    <img src="img/ccb_banyuls_2019.jpg" alt="CCB2019" title="CCB2019" style="width: 90%" class="rounded-corner">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <p class="text-black text-center">
-                                    <br>
-                                    <a href="https://ccbconference.wixsite.com/ccb2019" target="_blank">Comparative Cartilage Biology conference</a> organizer
-                                </p>
-                            </div>
-                        </div> -->
-                        <!-- <div class="col-md-4">
-                            <div class="row">
-                                <div class="col-md-offset-1 col-md-10">
-                                    <img src="img/blog_3.jpg" alt="Cerianthus membranaceus" title="Cerianthus membranaceus" style="width:100%" class="rounded-corner">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <p class="text-black text-center">
-                                    <br>
-                                    <a href="gallery.html" target="_blank">Gallery</a>
-                                </p>
-                            </div>
-                        </div> -->
-      <!--               </div>
-                </div>
-            </div>
-        </section> -->
-        <section id="perso" class="content-section">
-            <div class="well well-black"/>
-                <div class="section-heading">
-                    <h2><em>Hobbies</em></h2>
-                </div>
-                <div class="section-content">
-                    <div class="tabs-content">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="row">
-                                    <div class="col-md-offset-1 col-md-10">
-                                        <img src="img/fidjiberio_diving.jpg" alt="Chelonia midas" title="Chelonia midas" style="width:60%" class="rounded-corner">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <p class="text-black text-center">
-                                        <br>
-                                        Scuba diving!
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="row">
-                                    <div class="col-md-offset-1 col-md-10">
-                                        <img src="img/whale1.jpg" alt="whale" title="whale" style="width: 100%" class="rounded-corner">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <p class="text-black text-center">
-                                        <br>
-                                        Marine biology<br>and conservation
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="row">
-                                    <div class="col-md-offset-1 col-md-10">
-                                        <img src="img/fidjiberio_diy.jpg" alt="diy" title="diy" style="width: 60%" class="rounded-corner">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <p class="text-black text-center">
-                                        <br>
-                                        Tinkering
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-       <!--  <section id="contact" class="content-section">
-            <div class="section-heading">
-                <h2><em>Contact</em></h2>
-            </div>
-            <div class="section-content">
-                <div class="well"/>
-                    <img src="img/fidjiberio_contact.jpg" alt="Fidji Berio" title="Fidji Berio" class="rounded-corner" style="width:100%">
-                    <p class="text-black text-center">
-                        fidji.berio[at]umontpellier.fr<br>
-                        <a href="https://twitter.com/fidjiberio" target="_blank">@FidjiBerio</a> on Twitter 
-                    </p>
-                </div>
-            </div>
-        </section> -->
-    </div>
-    <section class="footer">
-        <h6>Copyright &copy; 2020 Fidji Berio</h6>
-    </section>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+.content-section {
+  padding-top: 80px;
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  height: auto;
+  left: 50%;
+  text-align: center;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
 
-    <script src="js/vendor/bootstrap.min.js"></script>
-    
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+.section-heading {
+  text-align: left;
+  position: relative;
+  margin-bottom: 60px;
+}
 
-    <script>
-        // Hide Header on on scroll down
-        var didScroll;
-        var lastScrollTop = 0;
-        var delta = 5;
-        var navbarHeight = $('header').outerHeight();
+.section-heading h2 {
+  margin-top: 0px;
+  font-size: 32px;
+  color: #232323;
+  display: inline-block;
+  margin-right: 50px;
+}
 
-        $(window).scroll(function(event){
-            didScroll = true;
-        });
+.section-heading em {
+  font-style: normal;
+  font-weight: 700;
+  color: #45489a;
+}
 
-        setInterval(function() {
-            if (didScroll) {
-                hasScrolled();
-                didScroll = false;
-            }
-        }, 250);
+.section-heading p {
+  display: inline-block;
+  font-size: 15px;
+  line-height: 26px;
+  color: #343434;
+  position: absolute;
+  top: 12.5px;
+}
 
-        function hasScrolled() {
-            var st = $(this).scrollTop();
-            
-            // Make sure they scroll more than delta
-            if(Math.abs(lastScrollTop - st) <= delta)
-                return;
-            
-            // If they scrolled down and are past the navbar, add class .nav-up.
-            // This is necessary so you never see what is "behind" the navbar.
-            if (st > lastScrollTop && st > navbarHeight){
-                // Scroll Down
-                $('header').removeClass('nav-down').addClass('nav-up');
-            } else {
-                // Scroll Up
-                if(st + $(window).height() < $(document).height()) {
-                    $('header').removeClass('nav-up').addClass('nav-down');
-                }
-            }
-            
-            lastScrollTop = st;
-        }
-    </script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-</body>
-</html>
+.white-button a {
+  font-size: 13px;
+  font-weight: 600;
+  color: #45489a;
+  text-transform: capitalize;
+  background-color: #fff;
+  display: inline-block;
+  height: 44px;
+  line-height: 44px;
+  padding: 0px 25px;
+  letter-spacing: 0.25px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.white-button a:hover {
+  background-color: #45489a;
+  color: #fff;
+}
+
+.accent-button a {
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: capitalize;
+  background-color: #45489a;
+  display: inline-block;
+  height: 44px;
+  line-height: 44px;
+  padding: 0px 25px;
+  letter-spacing: 0.25px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.accent-button a:hover {
+  background-color: #fff;
+  color: #45489a;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    transition: top 0.3s ease-in-out;
+    width: 100%;
+}
+
+.nav-up {
+    top: -75px;
+}
+
+/* Responsive Navigation */
+
+.responsive-nav {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height: 80px;
+  background-color: rgba(250,250,250,.95);
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+.navbar-toggle {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  display: inline-block;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.navbar-nav {
+  margin: 0;
+  border: none;
+}
+
+#main-nav ul {
+  text-align: center;
+  background-color: rgba(0,0,0,0.9);
+  margin-top: 59px;
+  width: 100%;
+}
+#main-nav ul li {
+  margin: 15px 0px;
+}
+#main-nav ul li:hover {
+  background-color: transparent;
+}
+#main-nav ul li a {
+  font-size: 15px;
+  text-transform: capitalize;
+  color: #fff;
+  box-shadow: none;
+  border: none;
+}
+
+#main-nav ul li a:hover {
+  opacity: 0.5;
+  background-color: transparent;
+}
+
+.navbar-toggle span {
+  background-color: #232323;
+}
+
+
+/* Sidebar Style */
+
+.sidebar-navigation {
+  width: 22.5%;
+  float: left;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(12,12,12,0.9);
+  z-index: 10;
+}
+
+.sidebar-navigation .logo {
+  position: absolute;
+  width: 100%;
+  height: 140px;
+  line-height: 100px;
+  background-color: #45489a;
+  padding: 20px;
+  text-align: center;
+}
+
+.sidebar-navigation .logo a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  height: 100px;
+  width: 100%;
+  display: inline-block;
+  border: 1px solid rgba(250,250,250,0.5);
+}
+
+.sidebar-navigation .logo em {
+  font-style: normal;
+  font-weight: 300;
+}
+
+.sidebar-navigation nav {
+  position: relative;
+  top: 60%;
+  left: 60%;
+  -webkit-transform: translateX(-60%) translateY(-60%);
+  -moz-transform: translateX(-60%) translateY(-60%);
+  -ms-transform: translateX(-60%) translateY(-60%);
+  -o-transform: translateX(-60%) translateY(-60%);
+  transform: translateX(-60%) translateY(-60%);
+}
+
+.sidebar-navigation ul {
+  margin-left: 45px;
+  list-style: none;
+  padding: 0;
+}
+.sidebar-navigation li{
+  padding: 10px 0;
+}
+.sidebar-navigation span{
+  display: inline-block;
+  position:relative;
+}
+.sidebar-navigation nav a{
+  display: inline-block;
+  color: #fff;
+  margin-top: 5px;
+  text-decoration: none!important;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+}
+.circle{
+  margin-right: 5px;
+  height: 10px;
+  width: 10px;
+  left: 0px;
+  top: -1px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid #fff;
+  transition: all 0.3s;
+}
+.rect{
+  height: 1px;
+  width: 0px;
+  left: 0;
+  bottom: 5.5px;
+  background-color: #fff;
+  -webkit-transition: -webkit-transform 0.1s, width 0.6s;
+  -moz-transition: -webkit-transform 0.1s, width 0.6s;
+  transition: transform 0.1s, width 0.6s;
+}
+.sidebar-navigation nav a:focus {
+  color: #fff;
+}
+.sidebar-navigation nav a:hover, nav .active-section {
+  color: #fff;
+}
+.sidebar-navigation nav a:hover span, nav .active-section span{
+  background-color: #ddd;
+}
+.sidebar-navigation nav .active-section .rect{
+  width: 30px;
+}
+.sidebar-navigation nav .active-section .circle{
+  background-color: #fff;
+}
+
+.sidebar-navigation .social-icons {
+  position: absolute;
+  width: 100%;  
+  bottom: 10px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.sidebar-navigation .social-icons li {
+  display: inline-block;
+  margin-right: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.sidebar-navigation .social-icons li:last-child {
+  margin-right: 0px;
+}
+
+.sidebar-navigation .social-icons li a {
+  font-size: 18px;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.sidebar-navigation .social-icons li a:hover {
+  color: #45489a;
+}
+
+
+/* Slider Style */
+
+.slider .content-section {
+  padding-top: 0px;
+  min-width: 100%;
+  min-height: 100vh;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+.slider p a {
+	color: #FFF;
+}
+.slider p a:hover {
+	color: #FF0;
+	text-decoration: none;
+}
+
+.Modern-Slider .info {
+  text-align: right;
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  right: 60px;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: inline-block;
+}
+
+.Modern-Slider .info h1 h2 {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  font-size: 48px;
+  color: #45489a;
+  font-weight: 700;
+}
+
+.Modern-Slider .info p {
+  font-size: 15px;
+  color: #45489a;
+}
+
+.Modern-Slider .info .white-button {
+  margin-top: 30px;
+}
+
+.Modern-Slider .info .white-button a:focus {
+  outline: none;
+}
+
+.Modern-Slider .slick-dots {
+  opacity: 0;
+}
+
+.Modern-Slider .NextArrow{
+  outline: none;
+  display: none;
+  position:absolute;
+  top:60px;
+  right:60px;
+  width:50px;
+  height:50px;
+  background:rgba(0,0,0,.50);
+  border:0 none;
+  margin-top:-22.5px;
+  text-align:center;
+  font:32px/50px FontAwesome;
+  color:#FFF;
+  z-index:5;
+}
+
+.Modern-Slider .NextArrow:before{content:'\f105';}
+
+.Modern-Slider .PrevArrow{
+  outline: none;
+  position:absolute;
+  top:60px;
+  right: 120px;
+  width:50px;
+  height:50px;
+  background:rgba(0,0,0,.50);
+  border:0 none;
+  margin-top:-22.5px;
+  text-align:center;
+  font:32px/50px FontAwesome;
+  color:#FFF;
+  z-index:5;
+}
+
+.Modern-Slider .item .image {
+  width: 100%;
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  display: block;
+}
+
+.Modern-Slider .item-1 .image {
+  background-image: url(../img/slide_1.jpg);
+}
+
+.Modern-Slider .item-2 .image {
+  background-image: url(../img/slide_2.jpg);
+}
+
+.Modern-Slider .item-3 .image {
+  background-image: url(../img/slide_3.jpg);
+}
+
+.Modern-Slider .item-4 .image {
+  background-image: url(../img/slide_4.jpg);
+}
+
+.Modern-Slider .item-5 .image {
+  background-image: url(../img/slide_5.jpg);
+}
+
+.Modern-Slider .item-6 .image {
+  background-image: url(../img/slide_6.jpg);
+}
+
+.Modern-Slider .PrevArrow:before{content:'\f104';}
+
+.Modern-Slider .item .image {
+  animation: zoomin 12s ease-in-out infinite alternate;
+  -webkit-animation: zoomin 12s ease-in-out infinite alternate;
+}
+
+@keyframes zoomin {
+    0% {-webkit-transform: scale(1);}
+    100% {-webkit-transform: scale(1.2);}
+}
+
+.Modern-Slider {background:transparent;}
+
+/* ==== Slick Slider Css Ruls === */
+.slick-slider{position:relative;display:block;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;-khtml-user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}
+.slick-list{position:relative;display:block;overflow:hidden;margin:0;padding:0}
+.slick-list:focus{outline:none}.slick-list.dragging{cursor:hand}
+.slick-slider .slick-track,.slick-slider .slick-list{-webkit-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+.slick-track{position:relative;top:0;left:0;display:block}
+.slick-track:before,.slick-track:after{display:table;content:''}.slick-track:after{clear:both}
+.slick-loading .slick-track{visibility:hidden}
+.slick-slide{display:none;float:left /* If RTL Make This Right */ ;height:100%;min-height:1px}
+.slick-slide.dragging img{pointer-events:none}
+.slick-initialized .slick-slide{display:block}
+.slick-loading .slick-slide{visibility:hidden}
+.slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}
+
+
+/* About me Style */
+
+#aboutme {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 50px;
+}
+
+
+/* Featured Style */
+
+#projects {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 80px;
+  border-bottom: 1px solid #eee;
+}
+
+#projects .section-heading {
+  margin-right: 20%;
+}
+
+#projects .content-section {
+  display: inline-block;
+  position: relative;
+}
+
+#projects .owl-dots {
+  margin-top: 40px;
+}
+
+#projects .owl-dots .owl-dot span  {
+  width: 12px;
+  height: 12px;
+  background-color: #cdcdcd!important;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 3px;
+}
+
+#projects .owl-dots .active span {
+  background-color: #45489a!important;
+}
+
+#projects .owl-dots button {
+  outline: none;
+}
+
+#projects .owl-nav {
+  position: absolute;
+  display: inline-block;
+  top: -110px;
+  right: 0;
+}
+
+#projects .owl-nav button:focus {
+  outline: none;
+}
+
+#projects .owl-nav .owl-prev span {
+  margin-right: 10px;
+}
+
+#projects .owl-nav .owl-next span, #projects .owl-nav .owl-prev span {
+  outline: none;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  line-height: 42px;
+  background-color: #eee;
+  color: #232323;
+  font-size: 42px;
+  transition: all 0.5s;
+}
+
+#projects .owl-nav span:hover {
+  background-color: #45489a;
+  color: #fff;
+}
+
+#projects .item {
+  text-align: left;
+  position: relative;
+  z-index: 10;
+}
+
+#projects .item .image {
+  position: relative;
+}
+
+#projects .item .image img {
+  width: 100%;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+#projects .item .image .featured-button a {
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: rgba(69,72,154, 0.9);
+  display: inline-block;
+  height: 44px;
+  line-height: 44px;
+  width: 100%;
+  letter-spacing: 0.25px;
+  text-decoration: none;
+  transition: all 0.5s;
+  position: absolute;
+  z-index: 9;
+  bottom: -44px;
+  opacity: 0;
+}
+
+#projects .item:hover .featured-button a {
+  bottom: 0;
+  opacity: 1;
+}
+
+#projects .item .text-content {
+  padding-top: 20px;
+  background-color: #fff;
+  position: relative;
+  z-index: 10;
+}
+
+#projects .item .text-content h4 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 21px;
+  font-weight: 600;
+  color: #232323;
+  letter-spacing: 0.5px;
+}
+
+#projects .item .text-content span {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  color: #7a7a7a;
+  letter-spacing: 0.5px;
+  margin-bottom: 12.5px;
+}
+
+/* Projects Style */
+
+#publications {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#publications .masonry {
+  position: relative;
+  width: 100%;
+}
+
+#publications .masonry .item img {
+  transition: all 1s;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#publications .masonry .item img:hover {
+  opacity: 0.5;
+}
+
+
+
+/* Video Presentation Style */
+
+#resume {
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 100px 60px;
+}
+
+#resume .section-heading {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#resume .section-heading h1 {
+  display: block;
+  margin: 0px;
+}
+
+#resume .section-heading p {
+  position: relative;
+  margin: 0px;
+}
+
+#resume .accent-button {
+  margin-top: 30px;
+}
+
+.box-video{
+  width: 100%;
+  position: relative;
+  margin-top: 30px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.box-video .bg-video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 2;
+}
+
+.box-video .video-container{
+  position: relative;
+  margin: 0;
+  z-index: 1;
+}
+
+.box-video .bt-play {
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin:-30px 0 0 -30px;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background:#fff;
+  border-radius: 50%;
+  text-indent: -999em;
+  cursor: pointer;
+  z-index:2;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+.box-video .bt-play:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 0;
+  width: 0;
+  margin: -12px 0 0 -6px;
+  border: solid transparent;
+  border-left-color: #000;
+  border-width: 12px 20px;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+.box-video:hover .bt-play {
+  transform: scale(1.1);
+}
+
+.box-video.open .bg-video{
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all .6s .8s;
+  transition: all .6s .8s;  
+}
+.box-video.open .video-container{
+  opacity: 1;
+  -webkit-transition: all .6s .8s;
+  transition: all .6s .8s;
+}
+
+
+
+
+/* Blog Style */
+
+#misc {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 80px;
+}
+
+#misc .tabs {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  height: 90px;
+  width: 100%;
+  background-color: #eee;
+  border-bottom: 10px solid #45489a;
+}
+
+#misc .tabs li {
+  display: inline-block;
+  text-align: center;
+  width: 25%;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+#misc .tabs a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  color: #232323;
+  font-size: 19px;
+  line-height: 80px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+#misc .tabs a:hover {
+  color: #45489a;
+}
+
+
+#misc .tabs .active:hover {
+  color: #fff;
+}
+
+#misc .tabs .active {
+  background-color: #45489a;
+  color: #fff;
+}
+
+.tabgroup {
+  background-color: #f4f4f4;
+  padding: 20px 30px;
+}
+
+.clearfix:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+#misc .tabgroup ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#misc .tabgroup ul li {
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+#misc .tabgroup ul li:last-child {
+  border-bottom: none;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+
+#misc .tabgroup ul li img {
+  float: left;
+  margin-right: 30px;
+  max-width: 100%;
+  overflow: hidden;
+}
+#misc .tabgroup ul li .text-content {
+  display: inline;
+}
+
+#misc .item .text-content h4 {
+  padding-top: 7.5px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 21px;
+  font-weight: 600;
+  color: #232323;
+  letter-spacing: 0.5px;
+}
+
+#misc .item .text-content span {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  color: #7a7a7a;
+  letter-spacing: 0.5px;
+  margin-bottom: 15px;
+}
+
+#misc .item .text-content .accent-button {
+  margin-top: 25px;
+}
+
+
+
+
+/* Contact Style */
+
+#contact {
+  padding-top: 0px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 50px;
+}
+
+#contact-content {
+  padding: 80px 60px;
+}
+
+#contact input {
+  border-radius: 0px;
+  padding-left: 15px;
+  font-size: 13px;
+  color: #aaa;
+  background-color: #f4f4f4;
+  border: 1px solid #eee;
+  outline: none;
+  box-shadow: none;
+  line-height: 40px;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+#contact textarea {
+  border-radius: 0px;
+  padding-left: 15px;
+  padding-top: 10px;
+  font-size: 13px;
+  color: #aaa;
+  background-color: #f4f4f4;
+  border: 1px solid #eee;
+  outline: none;
+  box-shadow: none;
+  height: 200px;
+  max-height: 250px;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 25px;
+}
+
+#contact button {
+  font-size: 13px;
+  border-radius: 0px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: capitalize;
+  background-color: #45489a;
+  display: inline-block;
+  height: 44px;
+  line-height: 24px;
+  outline: none;
+  box-shadow: none;
+  width: 100%;
+  letter-spacing: 0.25px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+#contact button:hover {
+  color: #232323;
+  background-color: #f4f4f4;
+}
+
+
+
+/* Footer Style */
+
+.footer {
+  background-color: rgba(12,12,12,0.9);
+  height: 80px;
+  line-height: 80px;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.footer p {
+  margin-bottom: 0px;
+  font-size: 13px;
+  line-height: 80px;
+  color: #fff;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+}
+
+.footer p a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+
+
+/* Responsive Style */
+
+@media (max-width: 992px) {
+
+  .responsive-nav {
+    display: none;
+  }
+
+  .sidebar-navigation .logo a {
+    font-size: 18px;
+  }
+
+  .sidebar-navigation nav a {
+    font-size: 13px;
+  }
+
+  .sidebar-navigation nav ul {
+    margin-left: 30px;
+  }
+
+  .sidebar-navigation .social-icons li a {
+    font-size: 15px;
+  }
+
+}
+
+
+@media (max-width: 767px) {
+
+  .responsive-nav {
+    display: block;
+    height: 60px;
+  }
+
+  .page-content {
+    width: 100%;
+  }
+
+  .Modern-Slider .info {
+    text-align: center;
+    right: 0px;
+    padding: 0px 30px;
+  }
+
+  .Modern-Slider .NextArrow{
+    outline: none;
+    display: none;
+    position:absolute;
+    top:120px;
+    right: 50%;
+    transform: translateX(50%);
+    margin-right: -30px;
+    width:50px;
+    height:50px;
+    background:rgba(0,0,0,.50);
+    border:0 none;
+    text-align:center;
+    font:32px/50px FontAwesome;
+    color:#FFF;
+    z-index:5;
+  }
+
+  .Modern-Slider .NextArrow:before{content:'\f105';}
+
+  .Modern-Slider .PrevArrow{
+    outline: none;
+    position:absolute;
+    top:120px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: -30px;
+    width:50px;
+    height:50px;
+    background:rgba(0,0,0,.50);
+    border:0 none;
+    text-align:center;
+    font:32px/50px FontAwesome;
+    color:#FFF;
+    z-index:5;
+  }
+
+  
+
+}
+
+@media (max-width: 690px) {
+
+  .section-heading p {
+    position: relative;
+  }
+
+  #projects {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #projects .owl-nav {
+    position: absolute;
+    display: inline-block;
+    top: -220px;
+    right: 0;
+  }
+
+  #publications {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #resume {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #misc {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #misc .tabs a {
+    font-size: 13px;
+  }
+
+  #misc .tabgroup ul li img {
+    float: none;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  #misc .tabgroup ul li .text-content {
+    display: block;
+  }
+
+  #contact-content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+}
+
+/*Custom Dji*/
+.well-blue{
+  background-color: rgb(0, 197, 255);
+}
+
+#well-blue{
+  background-color: rgb(0, 197, 255)!important;
+}
+
+.well.well-black {
+    background: rgba(255, 255, 255, 1);
+}
+
+/* table Dji */
+table, th, td {
+  border: 1px solid black;
+}
+
+/* Container holding the image and the text */
+.dji-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.dji-container ul {
+  text-align: left;
+  color: black;
+  font-size: 18px;
+}
+
+/* Centered text */
+.dji-centered {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    right: 5%;
+    /*transform: translate(-50%, -50%);*/
+}
+
+/* Top left text */
+.dji-left {
+    position: absolute;
+    top: 10%;
+    left: 4%;
+}
+
+/* Top left text */
+.yann-left {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    right: 5%;
+    bottom: 10%;
+}
+
+.rounded-corner{
+  border-radius: 10%;
+}
+
+.text-black{
+  color:black;
+  font-size: 130%;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+.back-img{
+  opacity: 0.9;
+  transform: scaleX(-1);
+}
+
+/* images interactives */
+.interact_img:hover {
+  Opacity: 0.5;
+}
+
+/* dji new section == perso 02.08.19 */
+#perso {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 80px;
+}
+
+#perso .tabs {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  height: 90px;
+  width: 100%;
+  background-color: #eee;
+  border-bottom: 10px solid #45489a;
+}
+
+#perso .tabs li {
+  display: inline-block;
+  text-align: center;
+  width: 25%;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+#perso .tabs a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  color: #232323;
+  font-size: 19px;
+  line-height: 80px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+#perso .tabs a:hover {
+  color: #45489a;
+}
+
+
+#perso .tabs .active:hover {
+  color: #fff;
+}
+
+#perso .tabs .active {
+  background-color: #45489a;
+  color: #fff;
+}
+
+#perso .tabgroup ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#perso .tabgroup ul li {
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+#perso .tabgroup ul li:last-child {
+  border-bottom: none;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+
+#perso .tabgroup ul li img {
+  float: left;
+  margin-right: 30px;
+  max-width: 100%;
+  overflow: hidden;
+}
+#perso .tabgroup ul li .text-content {
+  display: inline;
+}
+
+#perso .item .text-content h4 {
+  padding-top: 7.5px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 21px;
+  font-weight: 600;
+  color: #232323;
+  letter-spacing: 0.5px;
+}
+
+#perso .item .text-content span {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  color: #7a7a7a;
+  letter-spacing: 0.5px;
+  margin-bottom: 15px;
+}
+
+#perso .item .text-content .accent-button {
+  margin-top: 25px;
+}
+
+/* section heading without bottom space */
+.section-heading_nobottom {
+  text-align: left;
+  position: relative;
+  margin-bottom: 10px;
+}
