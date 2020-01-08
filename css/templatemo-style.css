@@ -1162,6 +1162,10 @@ table, th, td {
   border-radius: 10%;
 }
 
+.straight-corner{
+  border-radius: 0%;
+}
+
 .text-black{
   color:black;
   font-size: 130%;
