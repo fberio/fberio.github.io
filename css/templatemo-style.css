@@ -1159,7 +1159,7 @@ table, th, td {
 }
 
 .rounded-corner{
-  border-radius: 10%;
+  border-radius: 0%;
 }
 
 .straight-corner{
