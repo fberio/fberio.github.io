@@ -1171,6 +1171,11 @@ table, th, td {
   font-size: 130%;
 }
 
+.text-grey{
+  color:#F0F8FF;
+  font-size: 110%;
+}
+
 .text-center{
   text-align: center;
 }
@@ -1182,6 +1187,10 @@ table, th, td {
 .back-img{
   opacity: 0.9;
   transform: scaleX(-1);
+}
+
+.back-img2{
+  opacity: 0.9;
 }
 
 /* images interactives */
