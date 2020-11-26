@@ -53,7 +53,7 @@ p h6 {
 .section-heading em {
   font-style: normal;
   font-weight: 700;
-  color: #45489a;
+  color: #07005e;
 }
 
 .section-heading p {
@@ -68,7 +68,7 @@ p h6 {
 .white-button a {
   font-size: 13px;
   font-weight: 600;
-  color: #45489a;
+  color: #07005e;
   text-transform: capitalize;
   background-color: #fff;
   display: inline-block;
@@ -81,7 +81,7 @@ p h6 {
 }
 
 .white-button a:hover {
-  background-color: #45489a;
+  background-color: #07005e;
   color: #fff;
 }
 
@@ -90,7 +90,7 @@ p h6 {
   font-weight: 600;
   color: #fff;
   text-transform: capitalize;
-  background-color: #45489a;
+  background-color: #07005e;
   display: inline-block;
   height: 44px;
   line-height: 44px;
@@ -102,7 +102,7 @@ p h6 {
 
 .accent-button a:hover {
   background-color: #fff;
-  color: #45489a;
+  color: #07005e;
 }
 
 header {
@@ -190,7 +190,7 @@ header {
   width: 100%;
   height: 140px;
   line-height: 100px;
-  background-color: #45489a;
+  background-color: #07005e;
   padding: 20px;
   text-align: center;
 }
@@ -308,7 +308,7 @@ header {
 }
 
 .sidebar-navigation .social-icons li a:hover {
-  color: #45489a;
+  color: #07005e;
 }
 
 
@@ -349,13 +349,13 @@ header {
   margin-top: 0px;
   margin-bottom: 15px;
   font-size: 48px;
-  color: #45489a;
+  color: #07005e;
   font-weight: 700;
 }
 
 .Modern-Slider .info p {
   font-size: 15px;
-  color: #45489a;
+  color: #07005e;
 }
 
 .Modern-Slider .info .white-button {
@@ -507,7 +507,7 @@ header {
 }
 
 #projects .owl-dots .active span {
-  background-color: #45489a!important;
+  background-color: #07005e!important;
 }
 
 #projects .owl-dots button {
@@ -543,7 +543,7 @@ header {
 }
 
 #projects .owl-nav span:hover {
-  background-color: #45489a;
+  background-color: #07005e;
   color: #fff;
 }
 
@@ -760,7 +760,7 @@ img {
   height: 90px;
   width: 100%;
   background-color: #eee;
-  border-bottom: 10px solid #45489a;
+  border-bottom: 10px solid #07005e;
 }
 
 #misc .tabs li {
@@ -786,7 +786,7 @@ img {
 }
 
 #misc .tabs a:hover {
-  color: #45489a;
+  color: #07005e;
 }
 
 
@@ -795,7 +795,7 @@ img {
 }
 
 #misc .tabs .active {
-  background-color: #45489a;
+  background-color: #07005e;
   color: #fff;
 }
 
@@ -917,7 +917,7 @@ img {
   font-weight: 600;
   color: #fff;
   text-transform: capitalize;
-  background-color: #45489a;
+  background-color: #07005e;
   display: inline-block;
   height: 44px;
   line-height: 24px;
@@ -1212,7 +1212,7 @@ table, th, td {
   height: 90px;
   width: 100%;
   background-color: #eee;
-  border-bottom: 10px solid #45489a;
+  border-bottom: 10px solid #07005e;
 }
 
 #perso .tabs li {
@@ -1238,7 +1238,7 @@ table, th, td {
 }
 
 #perso .tabs a:hover {
-  color: #45489a;
+  color: #07005e;
 }
 
 
@@ -1247,7 +1247,7 @@ table, th, td {
 }
 
 #perso .tabs .active {
-  background-color: #45489a;
+  background-color: #07005e;
   color: #fff;
 }
 
