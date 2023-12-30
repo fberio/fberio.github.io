@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +12,7 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
     <meta name="robots" content="index, follow">
-    <meta name="revisit-after" content="7 days"/>
+    <meta name="revisit-after" content="7 days" />
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -24,6 +25,7 @@
 
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
+
 <body>
     <header class="nav-down responsive-nav hidden-lg hidden-md">
         <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
@@ -54,7 +56,7 @@
         <nav>
             <ul>
                 <li>
-                    <a href="index.html#top">  
+                    <a href="index.html#top">
                         <span class="rect"></span>
                         <span class="circle"></span>
                         Home
@@ -74,13 +76,13 @@
                         Projects
                     </a>
                 </li>
-                 <li>
+                <li>
                     <a href="index.html#publications">
                         <span class="rect"></span>
                         <span class="circle"></span>
                         Publications
                     </a>
-                </li> 
+                </li>
                 <li>
                     <a href="index.html#resume">
                         <span class="rect"></span>
@@ -108,7 +110,8 @@
             <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li> -->
             <li><a href="https://twitter.com/fidjiberio" target="_blank"><i class="fa fa-twitter"></i></a></li>
             <!-- todo add researchgate profile -->
-            <li><a href="https://www.linkedin.com/in/fidjiberio/?locale=en_US" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/fidjiberio/?locale=en_US" target="_blank"><i
+                        class="fa fa-linkedin"></i></a></li>
             <!-- <li><a href="#"><i class="fa fa-rss"></i></a></li> -->
             <!-- <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
         </ul>
@@ -122,13 +125,15 @@
             <div class="section-content">
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="img/blog_3.jpg" alt="Cerianthus membranaceus" title="Cerianthus membranaceus" class="rounded-corner">
+                        <img src="img/gal_lab_species1.jpg" alt="CT scans of fishes" title="CT scans of fishes"
+                            class="rounded-corner">
                     </div>
                     <div class="col-md-6">
-                        <img src="img/blog_1.jpg" alt="Chelonia midas" title="Chelonia midas" class="rounded-corner">
+                        <img src="img/gal_lab_species2.jpg" alt="CT scans of fishes" title="CT scans of fishes"
+                            class="rounded-corner">
                     </div>
                 </div>
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-md-6">
                         <img src="img/brittany_boat.jpg" alt="Iroise sea" title="Iroise sea" class="rounded-corner">
                     </div>
@@ -138,14 +143,15 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="img/canada.jpg" alt="St Laurent river" title="St Laurent river" class="rounded-corner">
+                        <img src="img/canada.jpg" alt="St Laurent river" title="St Laurent river"
+                            class="rounded-corner">
                     </div>
-                    <!-- <div class="col-md-6">
+                    <div class="col-md-6">
                         <img src="img/whale.jpg" alt="Whale" title="Whale" width="380px" class="rounded-corner">
                     </div> -->
-                </div>
             </div>
-        </section>
+    </div>
+    </section>
     </div>
     <section class="footer">
         <h6>Copyright &copy; 2019 Fidji Berio</h6>
@@ -154,7 +160,7 @@
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
     <script src="js/vendor/bootstrap.min.js"></script>
-    
+
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
 
@@ -165,11 +171,11 @@
         var delta = 5;
         var navbarHeight = $('header').outerHeight();
 
-        $(window).scroll(function(event){
+        $(window).scroll(function (event) {
             didScroll = true;
         });
 
-        setInterval(function() {
+        setInterval(function () {
             if (didScroll) {
                 hasScrolled();
                 didScroll = false;
@@ -178,26 +184,27 @@
 
         function hasScrolled() {
             var st = $(this).scrollTop();
-            
+
             // Make sure they scroll more than delta
-            if(Math.abs(lastScrollTop - st) <= delta)
+            if (Math.abs(lastScrollTop - st) <= delta)
                 return;
-            
+
             // If they scrolled down and are past the navbar, add class .nav-up.
             // This is necessary so you never see what is "behind" the navbar.
-            if (st > lastScrollTop && st > navbarHeight){
+            if (st > lastScrollTop && st > navbarHeight) {
                 // Scroll Down
                 $('header').removeClass('nav-down').addClass('nav-up');
             } else {
                 // Scroll Up
-                if(st + $(window).height() < $(document).height()) {
+                if (st + $(window).height() < $(document).height()) {
                     $('header').removeClass('nav-up').addClass('nav-down');
                 }
             }
-            
+
             lastScrollTop = st;
         }
     </script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </body>
+
 </html>
